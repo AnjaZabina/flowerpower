@@ -8,6 +8,7 @@ body {
 }
 header {
   min-height: 10vh;
+  background-color: black;
 }
 nav ul {
   display: flex;
@@ -15,20 +16,23 @@ nav ul {
 }
 nav ul li {
   list-style: none;
-  padding-top: 20px;
+  padding: 25px 50px;
+  background-color: black;
+  margin-top: 4px;
 }
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: rgb(211, 210, 210);
   font-size: 24px;
+  text-transform: uppercase;
+  font-family: poppins, sans-serif;
 }
 nav ul li a:hover {
   text-decoration: none;
-  background-color: lightblue;
-  color: rgb(240, 170, 40);
+  background-color: rgb(233, 67, 37);
+  color: rgb(247, 185, 71);
   font-size: 24px;
-  font-weight: bold;
-  padding: 20px;
+  padding: 250px;
 }
 main {
   width: 100%;
@@ -36,15 +40,18 @@ main {
   background-image: url(/image/pexels-barikive-5047559.jpg);
   background-size: cover;
   background-attachment: fixed;
+  padding-top: 150px;
 }
 
 .info-text {
-  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 0.571);
+  color: rgb(0, 0, 0);
   height: 350px;
   width: 600px;
-  margin-left: 200px;
+  margin: 0 auto;
   padding-top: 20px;
   padding-left: 10px;
+  border-radius: 5px;
 }
 p {
   font-size: 40px;
